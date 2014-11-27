@@ -58,7 +58,7 @@ apt-get update
 
 ## VideCoreIV userspace libs
 
-You may need to fetch the libraries for VideoCoreIV for hf, these live here: https://github.com/raspberrypi/firmware/tree/master/hardfp
+You may need to fetch the libraries for VideoCoreIV for hf, these live here: <https://github.com/raspberrypi/firmware/tree/master/hardfp>
 
 # 重启电脑
 
@@ -71,4 +71,4 @@ sudo mount -o bind /dev chroot-raspbian-armhf/dev
 {% endhighlight %}
 
 
-参考： http://superpiadventures.com/2012/07/development-environment/
+参考： <http://superpiadventures.com/2012/07/development-environment/>
