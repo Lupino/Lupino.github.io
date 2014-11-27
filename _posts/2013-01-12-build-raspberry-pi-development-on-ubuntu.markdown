@@ -69,3 +69,6 @@ sudo mount -t proc proc chroot-raspbian-armhf/proc
 sudo mount -t sysfs sysfs chroot-raspbian-armhf/sys
 sudo mount -o bind /dev chroot-raspbian-armhf/dev
 {% endhighlight %}
+
+
+参考： http://superpiadventures.com/2012/07/development-environment/
