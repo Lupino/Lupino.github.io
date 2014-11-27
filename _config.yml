@@ -1,0 +1,12 @@
+# Site settings
+title: Lupino
+email: lmjubuntu@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  记录每一天的学习
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://mengjun.li" # the base hostname & protocol for your site
+twitter_username: Lupinome
+github_username:  Lupino
+
+# Build settings
+markdown: kramdown
