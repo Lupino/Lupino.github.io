@@ -354,3 +354,15 @@ footer p + p {
     content: 'at http://github.com/';
   }
 }
+
+article h1 {
+  font-size: 16px;
+}
+
+article h2 {
+  font-size: 14px;
+}
+
+article h3 {
+  font-size: 12px;
+}
