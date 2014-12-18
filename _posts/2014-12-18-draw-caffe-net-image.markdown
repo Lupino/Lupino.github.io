@@ -35,6 +35,8 @@ for line in lines:
     else:
         layer.append(line)
 
+layers.append(layer)
+
 graph = []
 for layer in layers:
     if isinstance(layer, list):
