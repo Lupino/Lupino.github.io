@@ -259,8 +259,7 @@ def classify(image):
                            image_dims=(256, 256),
                            raw_scale=255.,
                            mean=load_binaryproto(mean_file),
-                           channel_swap=(2, 1, 0),
-                           gpu=False)
+                           channel_swap=(2, 1, 0))
 
     labels = load_labels(label_file)
     scores = net.predict([image], oversample=True).flatten()
