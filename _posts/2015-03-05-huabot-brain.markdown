@@ -7,8 +7,8 @@ date: 2015-03-05
 关于 Huabot Brain
 ================
 
-Huabot Brain 可以说是 [caffe](http://caffe.berkeleyvision.org/) 的 GUI 工具。
-Huabot Brain 提供 restful api 和一个基于 react 的 web 页面，使得开发者或者研究人员可以
+[Huabot Brain](https://github.com/Lupino/huabot-brain/) 可以说是 [caffe](http://caffe.berkeleyvision.org/) 的 GUI 工具。
+[Huabot Brain](https://github.com/Lupino/huabot-brain/) 提供 restful api 和一个基于 react 的 web 页面，使得开发者或者研究人员可以
 方便的使用 caffe，查看训练状态，提供 demo 和应用。
 可作为一个嵌入式的子系统，通过简单的 restful api 给原有的系统提供深度学习的能力。
 
@@ -106,4 +106,4 @@ curl -d img_url=http://image http://127.0.0.1:3000/api/predict
 结束语
 =====
 
-就此饱览了 Huabot Brain 的盛宴。
+就此饱览了 [Huabot Brain](https://github.com/Lupino/huabot-brain/) 的盛宴。
