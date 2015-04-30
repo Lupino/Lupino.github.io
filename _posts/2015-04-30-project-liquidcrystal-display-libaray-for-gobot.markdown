@@ -24,28 +24,28 @@ date: 2015-04-30
 
 ### 1、 安装 gort
 
-```bash
+{% highlight bash %}
 $ go get -v github.com/hybridgroup/gort
-```
+{% endhighlight %}
 ### 2、 上传 firmata
 
-```bash
+{% highlight bash %}
 $ gort scan serial
 1 serial port(s) found.
 
 1 [/dev/ttyACM0] - [usb-Arduino__www.arduino.cc__0043_7543730383035110B2C1-if00]
 
 $ gort arduino upload firmata /dev/ttyACM0
-```
+{% endhighlight %}
 
 ### 3、Get LiquidCrystal.
 
-```bash
+{% highlight bash %}
 $ go get -v github.com/Lupino/LiquidCrystal
-```
+{% endhighlight %}
 
 ### 4、Hello World
-```go
+{% highlight go %}
 # file: helloworld.go
 package main
 
@@ -79,10 +79,10 @@ func main() {
 
 	gbot.Start()
 }
-```
+{% endhighlight %}
 
 ### 6、测试
-```bash
+{% highlight bash %}
 $ go run main.go
 2015/04/30 11:22:09 Initializing Robot LiquidCrystal ...
 2015/04/30 11:22:09 Initializing connections...
@@ -95,7 +95,7 @@ $ go run main.go
 2015/04/30 11:22:23 Starting devices...
 2015/04/30 11:22:23 Starting device LiquidCrystal...
 2015/04/30 11:22:24 Starting work...
-```
+{% endhighlight %}
 
 ### 更多例子
 <https://github.com/Lupino/LiquidCrystal/tree/master/examples>
