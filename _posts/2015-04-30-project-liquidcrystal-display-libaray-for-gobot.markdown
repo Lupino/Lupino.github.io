@@ -47,7 +47,7 @@ $ go get -v github.com/Lupino/LiquidCrystal
 
 ### 4、Hello World
 {% highlight go %}
-# file: helloworld.go
+// file: helloworld.go
 package main
 
 import (
