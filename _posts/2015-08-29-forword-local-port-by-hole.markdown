@@ -41,7 +41,7 @@ $ hole-keys
 
 Hole 支持使用证书认证和非证书认证，而我这里使用证书。
 
-Hole 支持 UDP,TCP,SOCKET 方式链接，而现在演示的 web 项目是 HTTP，tcp 的一种。
+Hole 支持 udp, tcp, unix socket 方式链接，而现在演示的 web 项目是 http，tcp 的一种。
 所以:
 
 {% highlight bash %}
@@ -86,8 +86,15 @@ $ hole -addr tcp://holehub.com:4000 -cert cert.pem -key cert.key -use-tls -src t
 
 到这里的话整个端口映射已经完成。只要通过 http://holehub.com:4000 就可以访问应用了。
 
-HoleHUB
--------
+扩展
+----
 
 朋友们没有自己的 VPS 也不用担心可以使用 <http://holehub.com> 同样可以实现内网穿透。
 并且 holehub 帮你做了很多事情，穿透就更加简单了。
+
+既然 hole 支持 tcp, udp, unix socket, 所以它还有很多玩法。比如：
+
+* 转发 ssh 端口
+* 和 shadowsocks 配合实现 local proxy
+* 本地主机服务，什么智能家居...
+* 其它 ...
