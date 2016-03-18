@@ -103,3 +103,5 @@ TouchScreen ts = TouchScreen(XP, YP, XM, YM, 300);
 `320` 已将超过 `256`, 所以就不行了，所以我通通改成 `int`。
 
 可以玩了，第一台游戏机终于搞定，于是我在 arduino 上面玩 flappy。
+
+源代码: <https://github.com/Lupino/arduino-projects/blob/master/flappy/flappy.ino>
